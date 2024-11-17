@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSL Collection</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+
+        .collection-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .collection-item {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .collection-item img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .collection-item h2 {
+            margin: 10px 0;
+            font-size: 20px;
+        }
+
+        .collection-item p {
+            font-size: 14px;
+            margin: 0 10px 10px;
+            line-height: 1.5;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin-bottom: 15px;
+            background: #d4af37;
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #e5bf48;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>YSL Collection</h1>
+        <div class="collection-grid">
+            <!-- Item 1 -->
+            <div class="collection-item">
+                <img src="C1.avif" alt="Product 1">
+                <h2>OPYUM Sandals in patent leather</h2>
+                <p>Sandals with cassandre heel featuring an adjustable ankle strap.</p>
+                
+            </div>
+            <!-- Item 2 -->
+            <div class="collection-item">
+                <img src="C2.avif" alt="Product 2">
+                <h2>VOLTAIRE TOP HANDLE in BOX SAINT LAURENT</h2>
+                <p>VOLTAIRE Top handle bag in BOX SAINT LAURENT leather, decorated with the CASSANDRE.
+                    This modern and structured bag features an adjustable handle for hand or shoulder carry.</p>
+            
+            </div>
+            <!-- Item 3 -->
+            <div class="collection-item">
+                <img src="C3.avif" alt="Product 3">
+                <h2>SAHARIENNE jacket in lambskin</h2>
+                <p>buttoned safari tunic jacket with storm flaps and a belted waist, featuring a pointed collar with throat latch, and drop shoulders.</p>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
